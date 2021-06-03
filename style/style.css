@@ -1,3 +1,9 @@
 body{
-    background-color: aliceblue;
+    background-image: url(../assets/bgtexture.jpg);
+}
+#homeImage {
+    background-image: url(../assets/homeHero.jpg);
+    height: 50vh;
+    width: 100vh;
+    background-repeat: no-repeat;
 }
