@@ -4,6 +4,7 @@ body{
 #homeImage {
     background-image: url(../assets/homeHero.jpg);
     height: 50vh;
-    width: 100vh;
+    width: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
 }
