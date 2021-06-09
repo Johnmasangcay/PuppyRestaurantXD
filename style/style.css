@@ -1,3 +1,13 @@
+@font-face {
+    font-family: MontaukRegular;
+    src: url(../assets/fonts/Montauk-Regular.otf);
+}
+
+@font-face {
+    font-family: MontaukBold;
+    src: url(../assets/fonts/Montauk-Bold.otf);
+}
+
 body{
     background-image: url(../assets/bgtexture.jpg);
 }
@@ -7,4 +17,25 @@ body{
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#AMainImage {
+    background-image: url(../assets/AboutMain.jpg);
+    background-size: cover;
+}
+
+#AMainCard {
+    
+}
+
+#ATeamHeading {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.AcardText {
+    font-family: MontaukRegular;
+    font-size: 16px;
+    color: #5F002B;
 }
