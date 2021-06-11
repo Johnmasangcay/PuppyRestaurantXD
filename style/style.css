@@ -8,6 +8,11 @@
     src: url(../assets/fonts/Montauk-Bold.otf);
 }
 
+@font-face {
+    font-family: FugazRegular;
+    src: url(../assets/fonts/FugazOne-Regular.ttf);
+}
+
 body{
     background-image: url(../assets/bgtexture.jpg);
 }
@@ -24,10 +29,6 @@ body{
     background-size: cover;
 }
 
-#AMainCard {
-    
-}
-
 #ATeamHeading {
     background-color: white;
     display: flex;
@@ -37,5 +38,11 @@ body{
 .AcardText {
     font-family: MontaukRegular;
     font-size: 16px;
+    color: #5F002B;
+}
+
+.AcardHeading {
+    font-family: FugazRegular;
+    font-size: 24px;
     color: #5F002B;
 }
