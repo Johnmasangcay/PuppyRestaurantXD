@@ -16,7 +16,13 @@
 body{
     background-image: url(../assets/bgtexture.jpg);
 }
-#homeImage {
+
+.navbarFont {
+    font-family: FugazRegular;
+    font-size: 16px;
+    color:#5F002B;
+}
+.homeImage {
     background-image: url(../assets/homeHero.jpg);
     height: 50vh;
     width: 100%;
@@ -24,12 +30,12 @@ body{
     background-size: cover;
 }
 
-#AMainImage {
+.AMainImage {
     background-image: url(../assets/AboutMain.jpg);
     background-size: cover;
 }
 
-#ATeamHeading {
+.ATeamHeading {
     background-color: white;
     display: flex;
     justify-content: center;
@@ -50,7 +56,7 @@ body{
     color: #5F002B;
 }
 
-#cateringHeroImage {
+.cateringHeroImage {
     background-image: url(../assets/cateringHero.jpg);
     height: 50vh;
     width: 100%;
@@ -65,4 +71,11 @@ body{
     font-family: MontaukRegular;
     font-size: 1vw;
     color: #5F002B
+}
+
+.picOne {
+    background-image: url(../assets/cateringMaine.jpg);
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
 }
