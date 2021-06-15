@@ -16,7 +16,7 @@
 body{
     background-image: url(../assets/bgtexture.jpg);
 }
-#homeImage {
+.homeImage {
     background-image: url(../assets/homeHero.jpg);
     height: 50vh;
     width: 100%;
@@ -24,12 +24,12 @@ body{
     background-size: cover;
 }
 
-#AMainImage {
+.AMainImage {
     background-image: url(../assets/AboutMain.jpg);
     background-size: cover;
 }
 
-#ATeamHeading {
+.ATeamHeading {
     background-color: white;
     display: flex;
     justify-content: center;
