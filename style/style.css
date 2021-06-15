@@ -34,7 +34,13 @@ margin: 0px;
     src: url(../assets/FugazOne-Regular.ttf);
 }
 
- p, hr{
+hr{
+    font-family: MontaukRegular;
+    font-size: 16px;
+    color: #5F002B;
+}
+
+.M-paragraph{
     font-family: MontaukRegular;
     font-size: 16px;
     color: #5F002B;
@@ -68,8 +74,20 @@ margin: 0px;
 
 .M-food-names {
     font-family: MontaukRegular;
-    font-size: 30px;
+    font-size: 25px;
     color: #5F002B;
 }
+
+.P-border {
+    border: 10px solid #fff;
+}
+
+.P-title {
+    font-family: FugazOneRegular;
+    font-size: 50px;
+    color: #5F002B;
+    /* opacity: 90%; */
+}
+
 
 
