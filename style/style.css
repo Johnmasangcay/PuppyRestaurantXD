@@ -16,6 +16,12 @@
 body{
     background-image: url(../assets/bgtexture.jpg);
 }
+
+.navbarFont {
+    font-family: FugazRegular;
+    font-size: 16px;
+    color:#5F002B;
+}
 .homeImage {
     background-image: url(../assets/homeHero.jpg);
     height: 50vh;
@@ -33,6 +39,9 @@ body{
     background-color: white;
     display: flex;
     justify-content: center;
+    font-family: FugazRegular;
+    font-size: 16px;
+    color:#5F002B;
 }
 
 .AcardText {
@@ -45,4 +54,28 @@ body{
     font-family: FugazRegular;
     font-size: 24px;
     color: #5F002B;
+}
+
+.cateringHeroImage {
+    background-image: url(../assets/cateringHero.jpg);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sideImage {
+    max-width: 90%;
+}
+
+.sideText {
+    font-family: MontaukRegular;
+    font-size: 1vw;
+    color: #5F002B
+}
+
+.picOne {
+    background-image: url(../assets/cateringMaine.jpg);
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
 }
