@@ -24,11 +24,6 @@ body{
     background-size: cover;
 }
 
-.AMainImage {
-    background-image: url(../assets/AboutMain.jpg);
-    background-size: cover;
-}
-
 .ATeamHeading {
     background-color: white;
     display: flex;
