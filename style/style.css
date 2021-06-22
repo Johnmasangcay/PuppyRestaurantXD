@@ -13,16 +13,17 @@
     src: url(../assets/fonts/FugazOne-Regular.ttf);
 }
 
-body{
+body {
     background-image: url(../assets/bgtexture.jpg);
 }
 
 .navbarFont {
     font-family: FugazRegular;
     font-size: 16px;
-    color:#5F002B;
+    color: #5F002B;
 }
-.homeImage {
+
+#homeImage {
     background-image: url(../assets/homeHero.jpg);
     height: 50vh;
     width: 100%;
@@ -41,10 +42,22 @@ body{
     justify-content: center;
     font-family: FugazRegular;
     font-size: 16px;
-    color:#5F002B;
+    color: #5F002B;
 }
 
-.AcardText {
+/* .AcardText { */
+.M-size {
+    margin: 0px;
+}
+
+/* BODY CSS */
+hr {
+    font-family: MontaukRegular;
+    font-size: 16px;
+    color: #5F002B;
+}
+
+.M-paragraph {
     font-family: MontaukRegular;
     font-size: 16px;
     color: #5F002B;
@@ -63,6 +76,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .sideImage {
     max-width: 90%;
 }
@@ -78,4 +92,62 @@ body{
     height: 20rem;
     background-position: center;
     background-size: cover;
+}
+
+.McardHeading {
+    font-family: FugazOneRegular;
+    font-size: 30px;
+    color: #5F002B;
+    opacity: 100%;
+}
+
+.Mtitle {
+    font-family: FugazOneRegular;
+    font-size: 50px;
+    color: #5F002B;
+    opacity: 100%;
+}
+
+.M-footer-img {
+    width: 100px;
+    height: 31.6;
+}
+
+.M-anchor {
+    font-family: FugazOneRegular;
+    font-size: 20px;
+    color: #5F002B;
+    opacity: 100%;
+}
+
+.M-food-names {
+    font-family: MontaukRegular;
+    font-size: 25px;
+    color: #5F002B;
+}
+
+.P-border {
+    border: 10px solid #fff;
+}
+
+.P-title {
+    font-family: FugazOneRegular;
+    font-size: 50px;
+    color: #5F002B;
+    /* opacity: 90%; */
+}
+
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0rem;
+}
+
+/* ------------------------------ */
+
+.navbar-toggler {
+    color: black;
+}
+
+.navbar-toggler-icon {
+    color: black;
 }
