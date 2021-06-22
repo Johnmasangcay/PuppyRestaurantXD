@@ -1,6 +1,7 @@
-body{
+body {
     background-image: url(../assets/bgtexture.jpg);
 }
+
 #homeImage {
     background-image: url(../assets/homeHero.jpg);
     height: 50vh;
@@ -10,12 +11,12 @@ body{
 }
 
 .M-size {
-margin: 0px;
+    margin: 0px;
 }
 
 
 
-  
+
 @font-face {
     font-family: MontaukRegular;
     src: url(../assets/fonts/Montauk-Regular.otf);
@@ -52,13 +53,13 @@ margin: 0px;
 
 
 /* BODY CSS */
-hr{
+hr {
     font-family: MontaukRegular;
     font-size: 16px;
     color: #5F002B;
 }
 
-.M-paragraph{
+.M-paragraph {
     font-family: MontaukRegular;
     font-size: 16px;
     color: #5F002B;
@@ -112,5 +113,12 @@ hr{
     right: 0rem;
 }
 
+/* ------------------------------ */
 
+.navbar-toggler {
+    color: black;
+}
 
+.navbar-toggler-icon {
+    color: black;
+}
