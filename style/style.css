@@ -64,6 +64,12 @@ hr {
     color: #5F002B;
 }
 
+.AcardText {
+    fong-family: FugazRegular;
+    font-size: 16px;
+    color:#5F002B;
+}
+
 .cateringHeroImage {
     background-image: url(../assets/cateringHero.jpg);
     height: 50vh;
