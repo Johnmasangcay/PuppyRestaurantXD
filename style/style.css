@@ -142,6 +142,12 @@ hr {
     right: 0rem;
 }
 
+.imgSize {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+}
+
 /* ------------------------------ */
 
 .navbar-toggler {
